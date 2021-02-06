@@ -22,11 +22,37 @@
   - How to solve git conflicts in terminal
   - How to do branch to branch merge
   - Disable push towards the remote master branch
+  - How do you squash last N commit into single commit
 
 - Docker
   - Docker Internals
+  - What is namespace and cgroup
+  - Difference between Docker Save and Export
+
 - Jenkins
+  - What is the environmental varibale in which Jenkins Configuration and runtime data contains
+  - Jenkins Environmental variables
+  - How to secure Jenkins
+  - How to move Jenkins from one server to another server
+
 - SonarQube
+
+- Linux
+  - What is Privilihed Ports in Linux
+  - What is Inode
+  - Difference between Hardlink and Softlink
+  - Command to create softlink
+  - Maximum number of process in Linux
+  - How do you get the count of open file descriptor for a process
+  - What is the value returned tp the parent process if the fork() system call is executed
+  - What is Collectd Tool
+  - What is the responsibilty of file under root file system.
+  - Which linux command is used to change the server bootup
+  - How to create a crontab entry
+  - What is the command to see the last exit code
+  - Different type of FAT File System
+  - Which Tool is used in linux to troubleshoot network issue
+
 - Python
   - Calling Script with Parameter
   - Working with files and directories
