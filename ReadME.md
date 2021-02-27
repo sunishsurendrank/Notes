@@ -78,38 +78,37 @@
   - Packages and libraries 
 
 - Kubernetes
-
- - Explain ControlPlane components and Ports
- - Different method to schedule a pod to Node
- - Difference between  Node Affinity and Node Selector 
- - What is the role of kube-proxy and kubelet in worker node
- - Pause container
- - Init containers
- - Differnce between Daemonset and static pod
- - Differnce between Side car Vs Ambassador Vs Adaptor
- - How the communication happens in istio
- - Difference between Liveness and Readiness Probe
- - Version support between kubeapi server, kubelet and other components
- - What is emptyDir
- - When secrets as volume mapped how the secret will be available to the container
- - Explain operator and CRD
- - Kubernetes release cycle
- - What is Endpoint kind in kubernetes
- - What is port forwarding in Kubernetes
- - Certificate rotation in kubernetes
- - Difference between deployment and statefullset and when we will use statefullset.
- - Deployment strategies in kubernetes
- - How will we implement blue green deployment, canary or dark release with kubernetes
- - What is Horizontal pod autoscaling(HPA)
- - Monitoring in kubernetes (Prometheus, Matrix server)
- - what are Expoters in kubernetes ,name some of it.
- - Difference between Service Mesh and API Gateway
- - TLS implemetation with istio
- - Secrets are just encoded, so how can we do this in secure way.
- - Cluster to cluster communication
- - Kubernetes how many times try restart by default, can we control this behaviour.
- - How many pods we can create in k8 nodes
- - What is headless service and when to use it
+  - Explain ControlPlane components and Ports
+  - Different method to schedule a pod to Node
+  - Difference between  Node Affinity and Node Selector 
+  - What is the role of kube-proxy and kubelet in worker node
+  - Pause container
+  - Init containers
+  - Differnce between Daemonset and static pod
+  - Differnce between Side car Vs Ambassador Vs Adaptor
+  - How the communication happens in istio
+  - Difference between Liveness and Readiness Probe
+  - Version support between kubeapi server, kubelet and other components
+  - What is emptyDir
+  - When secrets as volume mapped how the secret will be available to the container
+  - Explain operator and CRD
+  - Kubernetes release cycle
+  - What is Endpoint kind in kubernetes
+  - What is port forwarding in Kubernetes
+  - Certificate rotation in kubernetes
+  - Difference between deployment and statefullset and when we will use statefullset.
+  - Deployment strategies in kubernetes
+  - How will we implement blue green deployment, canary or dark release with kubernetes
+  - What is Horizontal pod autoscaling(HPA)
+  - Monitoring in kubernetes (Prometheus, Matrix server)
+  - what are Expoters in kubernetes ,name some of it.
+  - Difference between Service Mesh and API Gateway
+  - TLS implemetation with istio
+  - Secrets are just encoded, so how can we do this in secure way.
+  - Cluster to cluster communication
+  - Kubernetes how many times try restart by default, can we control this behaviour.
+  - How many pods we can create in k8 nodes
+  - What is headless service and when to use it
 
 
 # How to Install Go in Linux machine
