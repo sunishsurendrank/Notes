@@ -35,6 +35,13 @@
   - How to secure Jenkins
   - How to move Jenkins from one server to another server
 
+- AzureDevOps
+  - How to check the pod status from the pipeline
+  - How to create a custom build agent
+  - How to use environmnets in the azure pipline
+  - How to use secret file in azure pipeline
+  
+
 - SonarQube
 
 - Linux
@@ -52,6 +59,9 @@
   - What is the command to see the last exit code
   - Different type of FAT File System
   - Which Tool is used in linux to troubleshoot network issue
+
+
+
 
 - Python
   - Calling Script with Parameter
