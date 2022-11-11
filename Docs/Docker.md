@@ -36,10 +36,6 @@ etc/sunish is host machine location
 
 ## Difference between Docker Save and Export
 
-## Docker Reference
-https://alexander.holbreich.org/docker-components-explained/
-
-
 # Docker Internals
 
 In this section i assume readers already know about the Docker concepts
@@ -98,3 +94,6 @@ If we spin up the container wat i observered is more folder got added under the 
 Now Create a folder inside the Docker conatiner and see where it will be created in hostmachine
 
 ![image](/images/creatingfolderinsidedocker.PNG)
+
+## Docker Reference
+https://alexander.holbreich.org/docker-components-explained/

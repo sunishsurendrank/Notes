@@ -1,3 +1,31 @@
+# Git Basics
+
+## How to add git credentails for a single repository
+
+This will add a git config file inside .git folder and stored the password in windows credentails
+```
+git config credential.${remote}.username sunishsurendrank
+git config credential.helper store
+git pull
+```
+
+## How to squash commits
+
+Provide the count of commits that need to be squashed HEAD~1
+```
+git reset --soft HEAD~1
+git add.
+git commit -m "xyz"
+git push --force
+```
+
+## How to do branch to branch merge
+
+we can push the code into the different branch using the below command 
+
+```
+git push sunish origin/master
+```
 
 # Git Internals
 We all used the git as source code version controlling system.But how many of us explored what happens when we do a ```git add , git commit``` int our local repositories.
@@ -145,10 +173,3 @@ Remove the conflicts and do the commit again ,once that done do the merge it wil
 
 
 
-## How to do branch to branch merge
-
-we can push the code into the different branch using the below command 
-
-```
-git push sunish origin/master
-```
