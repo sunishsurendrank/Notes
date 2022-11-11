@@ -9,7 +9,11 @@
 - Reach Sunish in LinkedIn : https://www.linkedin.com/in/sunishsurendrank/
 - Reach Sunish in Twitter : @sunishsurendran
 
+
 # CHAPTERS
+
+[[_TOC_]]
+
 - Go Language
   - How to Install Go in Linux machine
   - Create Your First Go Lang Project
@@ -59,8 +63,6 @@
   - What is the command to see the last exit code
   - Different type of FAT File System
   - Which Tool is used in linux to troubleshoot network issue
-
-
 
 
 - Python
@@ -406,6 +408,45 @@ Now Create a folder inside the Docker conatiner and see where it will be created
 
 ![image](/images/creatingfolderinsidedocker.PNG)
 
+
+# Docker
+## What is namespace and cgroup
+Namespaces provide isolation of system resources, and (Control groups)cgroups allow for fine‑grained control and enforcement of limits for those resources.
+
+In short:
+- namespaces = limits what you can see
+- Cgroups = limits how much you can use
+
+![image](/images/Linux/linux-namespace.png)
+
+![image](/images/Linux/command-namespace.JPG)
+
+UTS (UNIX Time-Sharing) namespaces allow a single system to appear to have different host and domain names to different processes.
+
+An interprocess communication (IPC) namespace has its own IPC resources, for example POSIX message queues.
+
+## Docker Networking
+
+Three types of docker network
+- Bridge (Default)
+- None
+- Host
+
+When a container is created there is eth0 ethernet interface created which connect to the docker0 interface.
+
+## Docker Volume
+
+Docker creates volume under var/lib/docker/volumes
+
+```
+docker run -v etc/sunish:etc/database nginx
+```
+etc/sunish is host machine location
+
+## Difference between Docker Save and Export
+
+## Docker Reference
+https://alexander.holbreich.org/docker-components-explained/
 
  ## License
  Copyright © 2020, [Sunish Surendran Kannembath](https://github.com/sunishsurendrank). 
