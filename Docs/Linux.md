@@ -4,6 +4,7 @@
 
 # Linux Commands
 
+![image](/images/Linux/linux-tools.JPG)
 ## Command to get the computer information
 
 ```
