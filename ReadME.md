@@ -88,6 +88,9 @@
   - Revese Index
   - Different types of inheritance 
   - Packages and libraries 
+  - Magic Methods in python
+  - Set, frozenset. hash
+  - Difference between class attributes and properties
 
 - Kubernetes
   - Explain ControlPlane components and Ports
