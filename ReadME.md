@@ -91,6 +91,31 @@
   - Magic Methods in python
   - Set, frozenset. hash
   - Difference between class attributes and properties
+  Can you explain the difference between a list and a tuple in Python?
+
+Can you demonstrate how you would use the map(), reduce(), and filter() functions in Python?
+
+What is the purpose of the “with” statement in Python?
+
+Can you explain the use of generators in Python and give an example?
+
+What is the difference between a shallow and a deep copy in Python?
+
+Can you demonstrate how to use decorators in Python and give an example?
+
+Can you explain the use of the *args and **kwargs syntax in Python?
+
+Can you explain how you would handle a large dataset in Python and what data structures you would use to store it?
+
+Can you explain how you would implement a binary search algorithm in Python?
+
+What is your experience with Python libraries such as NumPy, Pandas, and Matplotlib?
+
+Can you explain how you would use multithreading in Python?
+
+Can you explain how you would handle exceptions in Python and give an example of when you would raise an exception?
+
+Can you explain how you would use regular expressions in Python and give an example?
 
 - Kubernetes
   - Explain ControlPlane components and Ports
