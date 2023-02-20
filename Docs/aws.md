@@ -146,6 +146,10 @@
  - Budget
  - Trusted Advisor
   
+# General Things
+
+![image](/images/aws/scope.png)
+
 
 
 
