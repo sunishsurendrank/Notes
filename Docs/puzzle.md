@@ -11,3 +11,7 @@
 - Find the next sequence number
 ```1, 11, 21, 1211, 111221```
 - There are 10 match box , each box consist of 10 sticks.In one both each stick weights 9 gms other all box each stick weights 10gm. You can weigh on once and find out which box have 9gms stick.
+
+- Prisoner hat riddle. 10 prisoners stand in line and they have black or white hat on there head.They need to gusse there hat color. Question will beasked from the backside.
+https://youtu.be/N5vJSNXPEwA 
+
