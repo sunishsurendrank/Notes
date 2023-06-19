@@ -49,7 +49,10 @@ def studentgenerator(count):
 
 print ('Memory (Before): {}Mb'.format(memory_usage_psutil()))
 
-#people1 = studentlist(1000000)
-people2 = studentgenerator(1000000)
+#people = studentlist(1000000)
+people = studentgenerator(1000000)
+print(people)
+for item in people:
+    print(item)
 
 print ('Memory (After) : {}Mb'.format(memory_usage_psutil()))

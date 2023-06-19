@@ -1,3 +1,14 @@
+# Architectural Things
+
+## Modeling notations 
+
+- ArchiMate
+- CSDM
+- BPMN
+
+
+## Designs
+
 - 𝗦𝘁𝗮𝘁𝗶𝗰 𝗖𝗼𝗻𝘁𝗲𝗻𝘁 𝗛𝗼𝘀𝘁𝗶𝗻𝗴: used to optimise webpage loading time. It stores static content (information that doesn't change often, like an author's bio or an MP3 file) - separately from dynamic content (like stock prices).
 
 - 𝗣𝗲𝗲𝗿-𝘁𝗼-𝗣𝗲𝗲𝗿: Involves multiple components called Peers, where a pear may function both as a client, requesting services from other peers, and as a server, providing services to other peers.
