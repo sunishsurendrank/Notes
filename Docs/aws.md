@@ -18,7 +18,7 @@
 
 - Purchase Option
   - on-Demand
-  - Reservered Inatsnce
+  - Reservered Instance
   - Savings Plan
   - Spot Instance
   - Dedicated Host
