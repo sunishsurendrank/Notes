@@ -26,6 +26,7 @@ def memory_usage_psutil():
     process = psutil.Process(os.getpid())
     mem = process.memory_info()[0] / float(2 ** 20)
     return mem
+
 def studentlist(count):
     result = []
     for i in range(count):
@@ -33,7 +34,7 @@ def studentlist(count):
                     'id': i,
                     'name': random.choice(name),
                     'major': random.choice(majors)
-        } 
+        }
         result.append(person)
     return result
 
