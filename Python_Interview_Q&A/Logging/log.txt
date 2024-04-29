@@ -1,0 +1,45 @@
+2024-02-19 14:37:11 GBE version=2.6.0
+2024-02-19 14:37:11 ScmExec version=2.29
+2024-02-19 14:37:11 Executing tasks from:      C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS\Build\generate.scm
+2024-02-19 14:37:11 Detailed log file:         C:\buildresults\DevOps-Integrationtest-Git-ADS\Logging\generate_trace.txt
+2024-02-19 14:37:11 Checking syntax...
+2024-02-19 14:37:11 Start execution...
+2024-02-19 14:37:11                               Start: .InstallNuGetPackages
+2024-02-19 14:37:12 result=OK    , exit_code=0    Done : .InstallNuGetPackages C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS\NuGet C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS\Externals
+2024-02-19 14:37:12                               Start: .CreateNuGetPackage
+2024-02-19 14:37:12 result=OK    , exit_code=0    Done : .CreateNuGetPackage C:\buildresults\DevOps-Integrationtest-Git-ADS\Publish\NuGet\DevOps-Integrationtest-Git-ADS 0.0.0 C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS\DevOps-Integrationtest-Git-ADS\packages\Philips.DevOps.Integrationtest.Git.ADS.nuspec C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS C:\buildresults\DevOps-Integrationtest-Git-ADS ""  
+2024-02-19 14:37:12                               Start: .CreateNuGetPackage
+2024-02-19 14:37:13 result=OK    , exit_code=0    Done : .CreateNuGetPackage C:\buildresults\DevOps-Integrationtest-Git-ADS\Publish\Artifactory\devtools\DevOps-Integrationtest-Git-ADS 0.0.0 C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS\DevOps-Integrationtest-Git-ADS\packages\Philips.DevOps.Integrationtest.Git.ADS.Generic.nuspec C:\Users\310265487\Content\Data\Repositories\DevOps-Integrationtest-Git-ADS C:\buildresults\DevOps-Integrationtest-Git-ADS ""  
+2024-02-19 14:37:13                               Start: .ChangeBlackboard
+2024-02-19 14:37:13 result=OK    , exit_code=0    Done : .ChangeBlackboard BuildPlatform = x86
+2024-02-19 14:37:13                               Start: .CheckProjectSettings
+2024-02-19 14:37:13 result=OK    , exit_code=0    Done : .CheckProjectSettings 
+2024-02-19 14:37:13                               Start: DevOps-Integrationtest-Git-ADS.sln
+2024-02-19 14:37:14 result=FAILED, exit_code=1    Done : DevOps-Integrationtest-Git-ADS.sln 
+2024-02-19 14:37:14                               Start: .ChangeBlackboard
+2024-02-19 14:37:14 result=SKIPPED                Done : .ChangeBlackboard 
+2024-02-19 14:37:14                               Start: DevOps-Integrationtest-Git-ADS.sln
+2024-02-19 14:37:14 result=SKIPPED                Done : DevOps-Integrationtest-Git-ADS.sln 
+2024-02-19 14:37:14                               Start: .Nunit
+2024-02-19 14:37:14 result=SKIPPED                Done : .Nunit 
+2024-02-19 14:37:14                               Start: .ChangeBlackboard
+2024-02-19 14:37:14 result=SKIPPED                Done : .ChangeBlackboard 
+2024-02-19 14:37:14                               Start: HelloWorld.sln
+2024-02-19 14:37:14 result=SKIPPED                Done : HelloWorld.sln 
+2024-02-19 14:37:14                               Start: .FileCopy
+2024-02-19 14:37:14 result=SKIPPED                Done : .FileCopy 
+2024-02-19 14:37:14                               Start: .FileCopy
+2024-02-19 14:37:14 result=SKIPPED                Done : .FileCopy 
+2024-02-19 14:37:14                               Start: dummy.cmd
+2024-02-19 14:37:14 result=SKIPPED                Done : dummy.cmd 
+2024-02-19 14:37:15 End of execution
+
+==============================================================================
+Overall results:     FAILED
+Failed actions:      1
+Duration:            00:00:03
+
+Report files in dir: C:\buildresults\DevOps-Integrationtest-Git-ADS\Logging\Reports
+Log file:            C:\buildresults\DevOps-Integrationtest-Git-ADS\Logging\generate_log.txt
+Trace file:          C:\buildresults\DevOps-Integrationtest-Git-ADS\Logging\generate_trace.txt
+==============================================================================
