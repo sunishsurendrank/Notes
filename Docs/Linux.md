@@ -14,6 +14,11 @@ Open the powershell in windows and type the below command
 ```
 ssh-keygen
 ```
+if you want to create key using the new ed25519 cryptographic algorithm then try below command
+
+```
+ssh-keygen -t ed25519 -C xxyz.com
+```
 
 The tool will create rsa key under location `C:\Users\<username>/.ssh/id_rsa`
 
